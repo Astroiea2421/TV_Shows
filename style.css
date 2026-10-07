@@ -1,0 +1,132 @@
+body { /*The defaults used throught the website*/
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #132A3F; /*Sets the backround page colour*/
+    color: #ffffff;/*Sets the default text colour*/
+    margin: 0px; /* Removes the browser's default page margin */
+    text-align:center;     /*Centres most text on the page*/
+    font-size: 17px;
+}
+
+#page_logo {   /*The logo atop each page*/
+    width: 600px; /*Sets the size of the image*/
+    background-color: #10173f; 
+    border: 12px double #284570; /*Creates a border around it*/
+    border-radius: 60px; /*Makes the border rounded*/
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+h1 { /*Heading 1*/
+    font-size: 70px; /*Sets the size of the text*/
+    color:#7a8beb;
+}
+
+h2 { /*Heading 2*/
+    font-size: 30px;
+    color: #a5b6e0;
+    }
+
+h4 { /*Heading 4*/
+    color: #2e406e;
+    font-size: 18px;
+}
+
+h5 {
+    color: #101b38;
+}
+
+p {
+    margin-left: 250px; /* Stops length on the right */
+    margin-right: 250px; /* Stops length on the left */
+    margin-inline: 50px;
+}
+
+div { /*Div makes gaps*/
+    padding: 1px;
+}
+   
+#container { /* coloured box */
+    width: 600px; /* width */
+    margin: 0 auto; /*Centres it*/
+    background-color: #858585;
+    line-height: 30px; /* Spaces between the lines*/
+    padding: 5px;
+    border-radius: 40px;
+    border: 5px solid #292929;
+}
+
+#designs { /*Border of treehouse designs*/
+    height: 500px;
+    border: 5px dashed #adadad;
+}
+
+#design_container { /* coloured box */
+    width: 400px; /* width */
+    margin: 0 auto; /*Centres it*/
+    background-color: #d6d6d6;
+    line-height: 30px; /* Spaces between the lines*/
+    padding: 5px;
+    padding-top: 20px;
+    border-radius: 40px;
+    border: 5px solid #444444;
+}
+
+footer {
+   background-color: #dfdfdf;
+   color: #474747;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+li {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    padding-left: 2px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin: 0px 340px;
+    background-color: #d6d6d6;
+    line-height: 30px; /* Spaces between the lines*/
+    padding: 15px 50px;
+    border-radius: 40px;
+    border: 5px solid #4d4d4d;
+}
+
+ul {
+    list-style-type:"⸙  ";
+}
+
+nav { /*Sets Nav bar background colour*/
+	background-color: #080f22;
+}
+
+nav a {/*Creates the nav buttons*/
+	text-decoration: none; /* Removes the underline from  the link*/
+    background-color: #1c265a;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px double #6470ad;
+    display: inline-block;
+}
+
+nav a:visited { /*Sets the colour of the text on the buttons*/
+	color: #bdcaec;
+}
+nav a:hover { /*Changes the bg colour of the buttons if you hover*/
+	background: #2a3777;
+}
+
+a:link, a:visited { /*Sets Default colour of links*/
+  color:#bdcaec;
+}
+
+a:hover, a:active { /*Sets Link colour if you hover*/
+  color:#bdbdbd;
+}
+
+
+
